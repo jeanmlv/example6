@@ -10,3 +10,5 @@ Regarding the ARGES Commons dashboard, I believe we could incorporate this analy
 
 Best regards,
 Jean
+
+Perhaps we could review the study metadata to check whether video collection is documented through a specific questionnaire, assessment, or dataset at the patient and visit level. I'll also check whether we have access to this metadata to investigate further.
