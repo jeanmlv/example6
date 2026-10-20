@@ -2,13 +2,10 @@
 
 Hi Pablo,
 
-I reviewed the available QUASAR ADaM datasets, but I couldn't identify a specific variable indicating whether a video is available for each patient and visit.
+The ARD locations are available in the ARGES Commons dashboard under the **Data Availability** section. You just need to select the study using the filters, scroll down to the **ARD** section, and expand the available locations. Clicking **"Open location"** will take you directly to the corresponding folder in Thea.View, where I've been uploading the ARD files for each study.
 
-It seems that this information may be tracked separately from the clinical datasets. Perhaps we could review the study metadata to check whether video collection is documented through a specific questionnaire, assessment, or dataset at the patient and visit level.
+Regarding the slim versions, I usually generate them once the Variable Gap Analysis is completed and we reach 100% mapping coverage, as shown in the **ARD** tab of the dashboard. The slim ARDs contain only the variables of interest identified during the mapping process.
 
-Regarding the ARGES Commons dashboard, I believe we could incorporate this analysis once we have access to that information, allowing us to assess video coverage up to M-140 and M-188.
+That's why some studies don't have a slim version available yet. However, I can start generating them for the remaining studies if needed, even while the gap analysis is still ongoing.
 
-Best regards,
-Jean
-
-Perhaps we could review the study metadata to check whether video collection is documented through a specific questionnaire, assessment, or dataset at the patient and visit level. I'll also check whether we have access to this metadata to investigate further.
+Let me know if you have any trouble locating the files!
