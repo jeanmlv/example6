@@ -1,0 +1,43 @@
+[
+  {
+    "_id": "688bd631de147030adb72c13",
+    "_modelType": "item",
+    "baseParentId": "687fe830e4f52ab6376b2785",
+    "baseParentType": "collection",
+    "created": "2025-07-31T20:46:41.017000+00:00",
+    "creatorId": "61faf3410ba0eb5016dda586",
+    "description": "",
+    "folderId": "688bd631de147030adb72c14",
+    "meta": {
+      "codec": "h264",
+      "import_path": "IBD/Guselkumab/CNTO1959UCO3001/endoscopy/rawdata/BC20200818/Site HU10003/Patient 100017/Screening/Endoscopy - 03-Jul-2020/ES - Gastrointestinal Tract/Janssen 10006930_Site-N72HU10003_100017_Time-Screening _2020-07-03 10_21_26.avi",
+      "import_source": "s3",
+      "originalFps": 30.00003000003,
+      "originalFpsString": "10000000/333333",
+      "source_video": true
+    },
+    "name": "Janssen 10006930_Site-N72HU10003_100017_Time-Screening _2020-07-03 10_21_26.avi",
+    "size": 28094262,
+    "updated": "2026-04-09T03:16:55.015000+00:00"
+  },
+  {
+    "_id": "69d71a26428e75c957cb97b6",
+    "_modelType": "item",
+    "baseParentId": "687fe830e4f52ab6376b2785",
+    "baseParentType": "collection",
+    "created": "2026-04-09T03:16:54.616000+00:00",
+    "creatorId": "61faf3410ba0eb5016dda586",
+    "description": "",
+    "folderId": "688bd631de147030adb72c14",
+    "meta": {
+      "codec": "h264",
+      "originalFps": 30.00003000003,
+      "originalFpsString": "10000000/333333",
+      "source_video": false,
+      "transcoder": "ffmpeg"
+    },
+    "name": "Janssen 10006930_Site-N72HU10003_100017_Time-Screening _2020-07-03 10_21_26.transcoded.mp4",
+    "size": 31477258,
+    "updated": "2026-04-09T03:16:55.008000+00:00"
+  }
+]
