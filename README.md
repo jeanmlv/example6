@@ -1,7 +1,7 @@
 # example6
 
-I've put together an initial data dictionary for ARGES Commons to help you better understand what each worksheet captures.
+That sounds great, Tiffany! Yes, I think it would be really helpful to include the data sources and who is responsible for populating or updating each section.
 
-I'm sharing it here as a starting point. Please let me know if this is what you had in mind or if you'd like us to expand the documentation further.
+As we discussed yesterday, some information comes from ClinicalTrials.gov, while other details are collected from Pablo and different team members.
 
-And thanks for offering to help with this!
+Feel free to add any comments or questions directly in the document, and I can provide more context as needed!
