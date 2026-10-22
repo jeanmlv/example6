@@ -1,9 +1,5 @@
 # example6
 
-Hi Tiffany, good morning!
+Do you happen to have an example or template of what you're looking for? Or has Kevin provided any specific guidance on what information he'd like to see included in the data dictionary?
 
-Yes, we already have a variable dictionary included in our ARGES_COMMONS Excel inventory, which contains information about the variables used across the studies.
-
-However, if you're referring to a more comprehensive data dictionary covering the entire ARGES COMMONS structure, including the different datasets, fields, and their definitions, we could definitely expand the existing documentation.
-
-I'd be happy to share what we currently have and work with you to provide any additional context Kevin might need.
+That would help me better understand the expectations and see how we can adapt or expand our existing documentation to meet those needs.
