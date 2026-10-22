@@ -1,5 +1,7 @@
 # example6
 
-Do you happen to have an example or template of what you're looking for? Or has Kevin provided any specific guidance on what information he'd like to see included in the data dictionary?
+I've put together an initial data dictionary for ARGES Commons to help you better understand what each worksheet captures.
 
-That would help me better understand the expectations and see how we can adapt or expand our existing documentation to meet those needs.
+I'm sharing it here as a starting point. Please let me know if this is what you had in mind or if you'd like us to expand the documentation further.
+
+And thanks for offering to help with this!
