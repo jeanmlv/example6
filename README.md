@@ -1,50 +1,24 @@
 # example6
 
+$env:THEA_API_KEY = Read-Host "Enter Thea API Key" -AsSecureString
 
-import os
-import requests
 
-API_URL = "https://dsa-staging.jnj.com/api/v1"
+$secureKey = Read-Host "Enter Thea API Key" -AsSecureString
 
-api_key = os.getenv("THEA_API_KEY", "").strip()
+$env:THEA_API_KEY = [System.Net.NetworkCredential]::new(
+    "",
+    $secureKey
+).Password
 
-if not api_key:
-    raise RuntimeError("THEA_API_KEY is not configured.")
 
-session = requests.Session()
+if ($env:THEA_API_KEY) {
+    Write-Host "API Key configured successfully!"
+} else {
+    Write-Host "API Key not configured."
+}
 
-response = session.post(
-    f"{API_URL}/api_key/token",
-    params={
-        "key": api_key,
-        "duration": 0.04,
-    },
-    timeout=30,
-)
 
-response.raise_for_status()
+python 00_test_thea_auth.py
 
-data = response.json()
 
-token = data.get("authToken", {}).get("token") or data.get("token")
-
-if not token:
-    raise RuntimeError(
-        "Authentication succeeded, but no token was found."
-    )
-
-session.headers.update({"Girder-Token": token})
-
-me = session.get(
-    f"{API_URL}/user/me",
-    timeout=30,
-)
-
-me.raise_for_status()
-
-user = me.json()
-
-print("Authentication successful!")
-print("Username:", user.get("login", "Unknown"))
-print("User ID:", user.get("_id", "Unknown"))
 
