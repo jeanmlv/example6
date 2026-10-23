@@ -28,4 +28,6 @@ truststore.inject_into_ssl()
 
 import requests
 
+python 01_extract_video_inventory_multistudy_updated.py --mode test --study QUASAR --max-folders 30
+
 
