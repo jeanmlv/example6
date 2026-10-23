@@ -21,4 +21,11 @@ if ($env:THEA_API_KEY) {
 python 00_test_thea_auth.py
 
 
+import os
+import truststore
+
+truststore.inject_into_ssl()
+
+import requests
+
 
